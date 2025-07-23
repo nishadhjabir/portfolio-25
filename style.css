@@ -79,15 +79,33 @@ ul {
   list-style: none;
 }
 
+ul.example-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 70px;
+}
+
 .example-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -32px;
+  
 }
 .example-2 .icon-content {
   margin: 0 10px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  vertical-align: middle;
+  margin: 0;
 }
 .example-2 .icon-content .tooltip {
   position: absolute;
