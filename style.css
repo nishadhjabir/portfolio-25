@@ -60,7 +60,7 @@ section{
   align-items: center;
   justify-content: center;
   color: white!important;
-  height: fit-content!important;
+  min-height: fit-content!important;
 }
 
 .bot{
@@ -183,4 +183,12 @@ ul.example-2 {
 .example-2 .icon-content a[data-social="youtube"] .filled,
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
+}
+
+.carousel-rounded,
+.carousel-rounded .carousel-inner,
+.carousel-rounded .carousel-item,
+.carousel-rounded .card-img-top {
+  border-radius: 30px !important;
+  overflow: hidden;
 }
