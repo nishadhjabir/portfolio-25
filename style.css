@@ -74,6 +74,7 @@ section{
 .card, .card img{
   border-radius: 30px!important;
   border: 0px!important;
+  
 }
 
 
@@ -164,5 +165,24 @@ ul.example-2 {
 .carousel-rounded .card-img-top {
   border-radius: 30px !important;
   overflow: hidden;
+  
 }
 
+.col{
+   animation: flyInFromBottom 0.5s ease-out;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+}
+
+    @keyframes flyInFromBottom {
+      from {
+        filter: blur(1px);
+        scale: 1.02;
+        transform: translateY(30px);
+      }
+      to {
+        filter: blur(0px);
+        scale: 1;
+        transform: translateY(0);
+      }
+    }
