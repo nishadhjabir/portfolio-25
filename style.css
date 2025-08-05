@@ -176,12 +176,10 @@ ul.example-2 {
 
     @keyframes flyInFromBottom {
       from {
-        filter: blur(1px);
         scale: 1.02;
         transform: translateY(30px);
       }
       to {
-        filter: blur(0px);
         scale: 1;
         transform: translateY(0);
       }
