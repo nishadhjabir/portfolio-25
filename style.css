@@ -25,7 +25,7 @@ section{
 }
 
 .top{
-  background-color: #e5dfd4;
+  background-color: #E6EDf5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +37,7 @@ section{
   text-align: center;
   margin-top: 0px;
   font-size: 50px;
-    background: linear-gradient(to right,  #580016,#800020, #c20f65,#800020,  #580016);
+    background: linear-gradient(to right,  #000000,#2c2c2c, #6e6e6e,#2c2c2c,  #000000);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -53,7 +53,7 @@ section{
 }
 
 .mid{
-  background-color: #800020;
+  background-color: #59606E;
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
@@ -64,7 +64,7 @@ section{
 }
 
 .bot{
-  background-color: #e5dfd4;
+  background-color: #E6EDf5;
   padding: 20px; 
   display: flex;
   align-items: end;
@@ -134,7 +134,7 @@ ul.example-2 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #800020;
+  color: #59606E;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -146,7 +146,7 @@ ul.example-2 {
   height: 30px;
 }
 .example-2 .icon-content a:hover {
-  color: #4d4d4d;
+  color: #353535;
 }
 .example-2 .icon-content a .filled {
   position: absolute;
