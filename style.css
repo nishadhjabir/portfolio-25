@@ -100,7 +100,6 @@ ul.example-2 {
   
 }
 .example-2 .icon-content {
-  margin: 0 10px;
   position: relative;
   display: flex;
   flex-direction: column;
