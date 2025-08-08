@@ -70,17 +70,17 @@ section{
   align-items: end;
   justify-content: center;
 }
-.card{
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.295);
-}
 
-
-.card, .card img{
+.card1, .card1 img, .card, .card img{
   border-radius: 30px!important;
   border: 0px!important;
   
 }
 
+.card1, .card1 img{
+scale: 0.99!important;
+  
+}
 
 ul {
   list-style: none;
@@ -171,6 +171,7 @@ ul.example-2 {
 .carousel-rounded .card-img-top {
   border-radius: 30px !important;
   overflow: hidden;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.295);
   
 }
 
