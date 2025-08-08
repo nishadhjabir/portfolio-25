@@ -70,6 +70,10 @@ section{
   align-items: end;
   justify-content: center;
 }
+.card{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.13);
+}
+
 
 .card, .card img{
   border-radius: 30px!important;
@@ -91,6 +95,7 @@ ul.example-2 {
   padding: 0;
   width: 100%;
   min-height: 70px;
+  
 }
 
 .example-2 {
@@ -136,6 +141,7 @@ ul.example-2 {
   color: #59606E;
   background-color: #fff;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 10px 0 rgba(30, 34, 90, 0.10);
 }
 
 .example-2 .icon-content a svg {
@@ -143,6 +149,7 @@ ul.example-2 {
   z-index: 1;
   width: 30px;
   height: 30px;
+  
 }
 .example-2 .icon-content a:hover {
   color: #353535;
@@ -167,7 +174,24 @@ ul.example-2 {
   
 }
 
-    /* @keyframes flyInFromBottom {
+/* Apple-like liquid glass wobble animation */
+@keyframes liquidWobble {
+  0%   { transform: scale(1) skewX(0deg); }
+  10%  { transform: scale(1.01, 0.99) skewX(-0.5deg); }
+  22%  { transform: scale(0.99, 1.01) skewX(0.5deg); }
+  35%  { transform: scale(1.01, 0.99) skewX(-0.3deg); }
+  48%  { transform: scale(0.995, 1.005) skewX(0.3deg); }
+  60%  { transform: scale(1.005, 0.995) skewX(-0.2deg); }
+  72%  { transform: scale(0.997, 1.003) skewX(0.2deg); }
+  85%  { transform: scale(1.003, 0.997) skewX(-0.1deg); }
+  100% { transform: scale(1) skewX(0deg); }
+}
+
+.liquid-wobble {
+  animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
+}
+
+/* @keyframes flyInFromBottom {
       from {
        text-shadow: 0px 20px 5px rgba(0, 0, 0, 0.5);
         transform: translateY(-5px);
