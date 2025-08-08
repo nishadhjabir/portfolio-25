@@ -50,11 +50,6 @@ if (navbarLogo) {
     void navbarLogo.offsetWidth;
     navbarLogo.classList.add('liquid-wobble');
   });
-  navbarLogo.addEventListener('mousedown', function() {
-    navbarLogo.classList.remove('liquid-wobble');
-    void navbarLogo.offsetWidth;
-    navbarLogo.classList.add('liquid-wobble');
-  });
   navbarLogo.addEventListener('animationend', function() {
     navbarLogo.classList.remove('liquid-wobble');
   });
