@@ -35,11 +35,6 @@ wobbleElements.forEach(el => {
     void el.offsetWidth; // Force reflow
     el.classList.add('liquid-wobble');
   });
-    el.addEventListener('mousedown', function() {
-    el.classList.remove('liquid-wobble'); // Reset if already animating
-    void el.offsetWidth; // Force reflow
-    el.classList.add('liquid-wobble');
-  });
 
   // Optional: Remove the class after animation ends
   el.addEventListener('animationend', function() {
