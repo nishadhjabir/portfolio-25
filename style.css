@@ -173,8 +173,16 @@ ul.example-2 {
   overflow: hidden;
 }
 
-.carousel-rounded{
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.295);
+.carousel-rounded {
+  padding: 2px;
+  box-shadow:
+    inset 1px 1px 2px #4a505a,
+    inset -2px -1px 2px #7a8190,
+    0px 1px 5px #4a505a,
+    -2px -1px 5px #7a8190,
+    0 5px 10px 0 rgba(0, 0, 0, 0.295)!important;
+
+  border: 1px solid #7a8190;
 }
 
 @keyframes liquidWobble {
