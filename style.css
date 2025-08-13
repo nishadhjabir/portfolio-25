@@ -50,16 +50,20 @@ section{
     
 }
 
-.top h1{
+.top h1 {
   text-align: center;
   margin-top: 0px;
   font-size: 50px;
-    background: linear-gradient(to right,  #181818,#2c2c2c, #5e5e5e,#2c2c2c,  #181818);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-
+  background: 
+    linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0) 60%),
+    linear-gradient(to right, #181818, #2c2c2c, #5e5e5e, #2c2c2c, #181818);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    0 2px 4px rgba(0,0,0,0.4),
+    0 0px 4px rgba(0, 0, 0, 0);
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.2));
 }
 
 .top p{
