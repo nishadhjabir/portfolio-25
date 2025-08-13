@@ -47,6 +47,7 @@ section{
   align-items: center;
   justify-content: center;
   margin-top: 0px;
+  padding-top: 20px;
     
 }
 
@@ -132,7 +133,7 @@ ul.example-2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 55px;
   vertical-align: middle;
   margin: 0;
 }
@@ -157,8 +158,8 @@ ul.example-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.568);
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -189,13 +190,18 @@ ul.example-2 {
 .example-2 .icon-content a svg {
   position: relative;
   z-index: 1;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
+  transition: all 0.3s ease-in-out;
   
+}
+.example-2 .icon-content a svg:hover{
+  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.361));
 }
 .example-2 .icon-content a:hover {
   color: #353535;
+  
 }
 .example-2 .icon-content a .filled {
   position: absolute;
@@ -243,3 +249,4 @@ ul.example-2 {
 .liquid-wobble {
   animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
 }
+
