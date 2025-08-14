@@ -166,7 +166,7 @@ ul.example-2 {
   background: rgba(255, 255, 255, 0.568);
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 6px 10px 0 rgba(30, 34, 90, 0.10);
-  color: #59606E;
+  color: #232323;
   transition: all 0.3s ease-in-out;
   
 }
@@ -249,7 +249,7 @@ ul.example-2 {
   background: rgba(255, 255, 255, 0.568);
   border: 2px solid rgba(255, 255, 255, 0.3)!important;
   box-shadow: 0 4px 10px 0 rgba(30, 34, 90, 0.10);
-  color: #59606E;
+  color: #232323;
   height: 55px;
   width: 204px;
   padding: 5px 10px;
@@ -268,7 +268,6 @@ ul.example-2 {
   background: rgba(255, 71, 71, 0.568)!important;
 }
 .cvbtn a {
-  color: #59606E;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease-in-out!important;
