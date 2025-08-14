@@ -125,6 +125,8 @@ ul.example-2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -10px!important;
+  margin-top: 10px!important;
   
 }
 .example-2 .icon-content {
@@ -242,4 +244,40 @@ ul.example-2 {
 .liquid-wobble {
   animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
 }
+
+.cvbtn{
+  background: rgba(255, 255, 255, 0.568);
+  border: 2px solid rgba(255, 255, 255, 0.3)!important;
+  box-shadow: 0 4px 10px 0 rgba(30, 34, 90, 0.10);
+  color: #59606E;
+  height: 55px;
+  width: 204px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out!important;
+
+  
+  
+}
+
+
+.cvbtn:active {
+  background: rgba(255, 71, 71, 0.568)!important;
+}
+.cvbtn a {
+  color: #59606E;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out!important;
+  overflow: hidden;
+  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
+  
+}
+
+
+
+
 

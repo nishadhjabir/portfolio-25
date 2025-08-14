@@ -27,7 +27,7 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(myCarousel);
 
 // Select elements you want to wobble (example: all .card and .icon-content)
-const wobbleElements = document.querySelectorAll('.card, .icon-content');
+const wobbleElements = document.querySelectorAll('.card, .icon-content,.cvbtn');
 
 wobbleElements.forEach(el => {
   el.addEventListener('touchstart', function() {
@@ -54,3 +54,4 @@ if (navbarLogo) {
     navbarLogo.classList.remove('liquid-wobble');
   });
 }
+
