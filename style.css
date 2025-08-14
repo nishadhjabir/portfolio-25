@@ -193,16 +193,9 @@ ul.example-2 {
   width: 35px;
   height: 35px;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
-  transition: all 0.3s ease-in-out;
   
 }
-.example-2 .icon-content a svg:hover{
-  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.361));
-}
-.example-2 .icon-content a:hover {
-  color: #353535;
-  
-}
+
 .example-2 .icon-content a .filled {
   position: absolute;
   top: auto;
