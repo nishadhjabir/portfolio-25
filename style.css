@@ -253,29 +253,28 @@ ul.example-2 {
   box-shadow: 0 4px 10px 0 rgba(30, 34, 90, 0.10);
   color: #232323;
   height: 55px;
-  width: 204px;
-  padding: 5px 10px;
+  width: 205px;
+  padding: 0!important;
   border-radius: 50px;
-  border: none;
   cursor: pointer;
   font-size: 18px;
   transition: all 0.3s ease-in-out!important;
 
-  
-  
 }
 
 
 .cvbtn:active {
   background: rgba(255, 71, 71, 0.568)!important;
 }
+
 .cvbtn a {
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.3s ease-in-out!important;
-  overflow: hidden;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
-  
+  will-change: transform!important;
+  backface-visibility: hidden!important;
+  transform: translateZ(0);
+  pointer-events: none!important;
 }
 
 
