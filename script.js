@@ -55,3 +55,10 @@ if (navbarLogo) {
   });
 }
 
+document.querySelectorAll('.cvbtn').forEach(btn => {
+  btn.addEventListener('click', e => {
+    btn.classList.add('active-hold');
+    setTimeout(() => btn.classList.remove('active-hold'), 1000); // 0.5s hold
+  });
+});
+

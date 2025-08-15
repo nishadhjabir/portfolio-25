@@ -257,15 +257,21 @@ ul.example-2 {
   padding: 0!important;
   border-radius: 50px;
   cursor: pointer;
-  font-size: 18px;
-  transition: all 0.3s ease-in-out!important;
+  font-size: 20px;
+  transition: all 1s ease-in-out!important;
 
 }
 
-
-.cvbtn:active {
-  background: rgba(255, 71, 71, 0.568)!important;
+.cvbtn.active-hold {
+  background: rgba(255, 148, 148, 0.568)!important;
+  margin-top: -155px!important;
+  padding-bottom: 155px!important;
+  height: 205px!important;
+  width: 90dvw!important;
+  
+  
 }
+
 
 .cvbtn a {
   font-weight: 600;
