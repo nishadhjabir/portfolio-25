@@ -78,7 +78,7 @@ section{
 }
 
 .mid{
-  background-color: #59606E;
+  background-color: #4C535F;
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
@@ -271,10 +271,7 @@ ul.example-2 {
   font-weight: 600;
   text-decoration: none;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
-  will-change: transform!important;
-  backface-visibility: hidden!important;
-  transform: translateZ(0);
-  pointer-events: none!important;
+
 }
 
 
