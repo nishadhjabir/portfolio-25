@@ -247,6 +247,21 @@ ul.example-2 {
   animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
 }
 
+.cvbtn .status-text {
+  opacity: 0;
+  color: #ffa4a4;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 1s!important;
+  transition-delay: 1s!important;
+  
+}
+
 .cvbtn{
   background: rgba(255, 255, 255, 0.568);
   border: 2px solid rgba(255, 255, 255, 0.3)!important;
@@ -261,24 +276,32 @@ ul.example-2 {
   will-change: background;
   transition: all 1s cubic-bezier(0.4, 1.3, 0.5, 1)!important;
   transition-delay: 1.1s!important;
+  overflow: hidden;
+  position: relative;
   
 
 }
 
 .cvbtn.active-hold {
-  background: rgba(255, 161, 161, 0.568)!important;
   margin-top: -100px!important;
   padding-top: 100px!important;
   height: 155px!important;
   width: 90dvw!important;
   
 }  
+
+.cvbtn.active-hold .status-text {
+ opacity: 1;
+  
+}
+
 .cvbtn a {
   font-weight: 600;
   text-decoration: none;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
 
 }
+
 
 
 
