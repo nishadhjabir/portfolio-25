@@ -273,7 +273,7 @@ ul.example-2 {
   border-radius: 50px;
   cursor: pointer;
   font-size: 20px;
-  will-change: background;
+  will-change: auto;
   transition: all 1s cubic-bezier(0.4, 1.3, 0.5, 1)!important;
   transition-delay: 1.1s!important;
   overflow: hidden;
