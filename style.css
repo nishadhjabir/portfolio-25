@@ -259,6 +259,7 @@ ul.example-2 {
   transform: translate(-50%, -50%);
   transition-duration: 1s!important;
   transition-delay: 1s!important;
+  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.144));
   
 }
 
