@@ -249,7 +249,7 @@ ul.example-2 {
 
 .cvbtn .status-text {
   opacity: 0;
-  color: #ffa4a4;
+  color: #ff8c8c;
   font-size: 18px;
   text-align: center;
   width: 100%;
@@ -257,7 +257,7 @@ ul.example-2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition-duration: 1s!important;
+  transition: opacity 1s ease 1s;
   transition-delay: 1s!important;
   
 }
@@ -269,13 +269,17 @@ ul.example-2 {
   color: #232323;
   height: 55px;
   width: 205px;
-  padding: 0!important;
+  padding: 0;
   border-radius: 50px;
   cursor: pointer;
   font-size: 20px;
-  will-change: auto;
-  transition: all 1s cubic-bezier(0.4, 1.3, 0.5, 1)!important;
-  transition-delay: 1.1s!important;
+  will-change: transform;
+  transition: transform 1s cubic-bezier(0.4, 1.3, 0.5, 1) 1.1s,
+              height 1s cubic-bezier(0.4, 1.3, 0.5, 1) 1.1s,
+              width 1s cubic-bezier(0.4, 1.3, 0.5, 1) 1.1s,
+              margin-top 1s cubic-bezier(0.4, 1.3, 0.5, 1) 1.1s,
+              padding-top 1s cubic-bezier(0.4, 1.3, 0.5, 1) 1.1s;
+  transition-delay: 1.1s;
   overflow: hidden;
   position: relative;
   
@@ -283,10 +287,10 @@ ul.example-2 {
 }
 
 .cvbtn.active-hold {
-  margin-top: -100px!important;
+  margin-top: -100px;
   padding-top: 100px!important;
-  height: 155px!important;
-  width: 90dvw!important;
+  height: 155px;
+  width: 90dvw;
   
 }  
 
