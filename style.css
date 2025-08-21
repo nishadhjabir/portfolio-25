@@ -194,8 +194,8 @@ ul.example-2 {
 .example-2 .icon-content a svg {
   position: relative;
   z-index: 1;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
   
 }
