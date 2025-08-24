@@ -284,7 +284,7 @@ ul.example-2 {
 
 .cvbtn.active-hold {
   margin-top: -400px;
-  font-size: 0px;
+  padding-top: 400px!important;
   height: 455px;
   width: 90dvw;
   
@@ -306,4 +306,5 @@ ul.example-2 {
   width: auto;
   margin: 0%;
   height: 500px;
+  padding-bottom: 30px;
 }
