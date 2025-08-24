@@ -298,9 +298,9 @@ ul.example-2 {
 }
 
 .cvbtn.active-hold {
-  margin-top: -100px;
-  padding-top: 100px!important;
-  height: 155px;
+  margin-top: -400px;
+  font-size: 0px;
+  height: 455px;
   width: 90dvw;
   
 }  
@@ -314,5 +314,11 @@ ul.example-2 {
   font-weight: 600;
   text-decoration: none;
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.215));
+  
+}
 
+.cv{
+  width: auto;
+  margin: 0%;
+  height: 500px;
 }
