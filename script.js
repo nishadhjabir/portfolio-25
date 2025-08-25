@@ -42,7 +42,6 @@ wobbleElements.forEach(el => {
   });
 });
 
-// Add wobble effect to the navbar logo
 const navbarLogo = document.querySelector('.navbar-brand img');
 if (navbarLogo) {
   navbarLogo.addEventListener('touchstart', function() {
@@ -54,13 +53,6 @@ if (navbarLogo) {
     navbarLogo.classList.remove('liquid-wobble');
   });
 }
-
-document.querySelectorAll('.cvbtn').forEach(btn => {
-  btn.addEventListener('click', e => {
-    btn.classList.add('active-hold');
-    setTimeout(() => btn.classList.remove('active-hold'), 2100); // 0.5s hold
-  });
-});
 
 
 
