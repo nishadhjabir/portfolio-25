@@ -44,7 +44,7 @@ section{
 }
 
 .top{
-  background-color: #E6EDf5;
+  background-color: #F1EAFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@ section{
 }
 
 .mid{
-  background-color: #4C535F;
+  background-color: #605678;
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
@@ -89,7 +89,7 @@ section{
 }
 
 .bot{
-  background-color: #E6EDf5;
+  background-color: #F1EAFF;
   padding: 5px; 
   display: flex;
   align-items: end;
@@ -167,7 +167,7 @@ ul.example-2 {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.568);
   border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 6px 10px 0 rgba(30, 34, 90, 0.10);
+  box-shadow: 0 6px 10px 0 rgba(76, 30, 90, 0.1);
   color: #232323;
   transition: all 0.3s ease-in-out;
   
@@ -222,13 +222,13 @@ ul.example-2 {
 .carousel-rounded {
   padding: 2px;
   box-shadow:
-    inset 1px 1px 2px #4a505a,
-    inset -2px -1px 2px #7a8190,
-    0px 1px 5px #4a505a,
-    -2px -1px 5px #7a8190,
+    inset 1px 1px 2px #544a5a,
+    inset -2px -1px 2px #8c7a90,
+    0px 1px 5px #544a5a,
+    -2px -1px 5px #8b7a90,
     0 5px 10px 0 rgba(0, 0, 0, 0.295)!important;
 
-  border: 1px solid #7a8190;
+  border: 1px solid #897a90;
 }
 
 @keyframes liquidWobble {
