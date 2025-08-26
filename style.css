@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(255, 255, 255, 0.25)!important;
+  background: rgba(255, 255, 255, 0)!important;
     background: linear-gradient(175deg,rgba(255, 255, 255, 0.619), rgba(255, 255, 255, 0.25))!important;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
@@ -165,7 +165,7 @@ ul.example-2 {
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.568);
+  background: rgba(255, 255, 255, 0.269);
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 6px 10px 0 rgba(76, 30, 90, 0.1);
   color: #232323;
@@ -279,7 +279,16 @@ ul.example-2 {
 }
 
 .wheel {
-  background: radial-gradient(100% 100% at center,hsla(0,0%,60%,0) 47.8%,hsl(0,0%,60%) 48%);
+  background:
+    radial-gradient(100% 100% at center, hsla(268, 100%, 97%, 0) 60%, hsla(270, 60%, 80%, 0.15) 80%, hsla(270, 60%, 60%, 0.05) 100%),
+    linear-gradient(120deg, hsla(270, 100%, 99%, 0.7) 10%, hsla(270, 60%, 80%, 0.15) 80%);
+  box-shadow:
+    0 2px 16px 2px hsla(270, 60%, 60%, 0.10),
+    0 0 0 2px hsla(270, 60%, 80%, 0.25) inset,
+    0 8px 22px 0 hsla(270, 16%, 41%, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
   z-index: 2;
 }
 
@@ -296,10 +305,10 @@ ul.example-2 {
 
 .hamster__head {
   animation: hamsterHead var(--dur) ease-in-out infinite;
-  background: hsl(30,90%,55%);
+  background: #605678;
   border-radius: 70% 30% 0 100% / 40% 25% 25% 60%;
-  box-shadow: 0 -0.25em 0 hsl(30,90%,80%) inset,
-		0.75em -1.55em 0 hsl(30,90%,90%) inset;
+  box-shadow: 0 -0.25em 0 hsl(275, 90%, 85%)inset,
+		0.75em -1.55em 0 hsl(287, 88%, 90%) inset;
   top: 0;
   left: -2em;
   width: 2.75em;
@@ -309,9 +318,9 @@ ul.example-2 {
 
 .hamster__ear {
   animation: hamsterEar var(--dur) ease-in-out infinite;
-  background: hsl(0,90%,85%);
+  background: hsl(275, 90%, 85%);
   border-radius: 50%;
-  box-shadow: -0.25em 0 hsl(30,90%,55%) inset;
+  box-shadow: -0.25em 0 #605678 inset;
   top: -0.25em;
   right: -0.25em;
   width: 0.75em;
@@ -330,7 +339,7 @@ ul.example-2 {
 }
 
 .hamster__nose {
-  background: hsl(0,90%,75%);
+  background:#605678;
   border-radius: 35% 65% 85% 15% / 70% 50% 50% 30%;
   top: 0.75em;
   left: 0;
@@ -340,10 +349,10 @@ ul.example-2 {
 
 .hamster__body {
   animation: hamsterBody var(--dur) ease-in-out infinite;
-  background: hsl(30,90%,90%);
+  background: hsl(287, 88%, 90%);
   border-radius: 50% 30% 50% 30% / 15% 60% 40% 40%;
-  box-shadow: 0.1em 0.75em 0 hsl(30,90%,55%) inset,
-		0.15em -0.5em 0 hsl(30,90%,80%) inset;
+  box-shadow: 0.1em 0.75em 0 #605678 inset,
+		0.15em -0.5em 0 hsl(275, 90%, 85%) inset;
   top: 0.25em;
   left: 2em;
   width: 4.5em;
@@ -364,13 +373,13 @@ ul.example-2 {
 
 .hamster__limb--fr {
   animation: hamsterFRLimb var(--dur) linear infinite;
-  background: linear-gradient(hsl(30,90%,80%) 80%,hsl(0,90%,75%) 80%);
+  background: linear-gradient(hsl(287, 88%, 90%) 80%,#605678 80%);
   transform: rotate(15deg) translateZ(-1px);
 }
 
 .hamster__limb--fl {
   animation: hamsterFLLimb var(--dur) linear infinite;
-  background: linear-gradient(hsl(30,90%,90%) 80%,hsl(0,90%,85%) 80%);
+  background: linear-gradient(hsl(287, 88%, 90%) 80%,#605678 80%);
   transform: rotate(15deg);
 }
 
@@ -387,21 +396,21 @@ ul.example-2 {
 
 .hamster__limb--br {
   animation: hamsterBRLimb var(--dur) linear infinite;
-  background: linear-gradient(hsl(30,90%,80%) 90%,hsl(0,90%,75%) 90%);
+  background: linear-gradient(hsl(287, 88%, 90%) 90%,#605678 90%);
   transform: rotate(-25deg) translateZ(-1px);
 }
 
 .hamster__limb--bl {
   animation: hamsterBLLimb var(--dur) linear infinite;
-  background: linear-gradient(hsl(30,90%,90%) 90%,hsl(0,90%,85%) 90%);
+  background: linear-gradient(hsl(287, 88%, 90%) 90%,#605678 90%);
   transform: rotate(-25deg);
 }
 
 .hamster__tail {
   animation: hamsterTail var(--dur) linear infinite;
-  background: hsl(0,90%,85%);
+  background: hsl(275, 90%, 85%);
   border-radius: 0.25em 50% 50% 0.25em;
-  box-shadow: 0 -0.2em 0 hsl(0,90%,75%) inset;
+  box-shadow: 0 -0.2em 0 #605678 inset;
   top: 1.5em;
   right: -0.5em;
   width: 1em;
