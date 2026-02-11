@@ -118,6 +118,8 @@ section{
 }
 
 .bot{
+  position: relative;
+  z-index: 1000;
   background: none;
   padding: 5px; 
   display: flex;
