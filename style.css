@@ -38,11 +38,12 @@
 }
 
 body{
-  background-image: url("img/white-leather-texture.jpg");
+  /* background-image: url("img/white-leather-texture.jpg");
   background-attachment: fixed;
   background-size: cover;                       
   background-repeat: no-repeat;                  
-  background-position: center;                  
+  background-position: center;                   */
+  background-color: #eeeeee;
 }
 
 section{
