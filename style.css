@@ -281,3 +281,16 @@ ul.example-2 {
 .liquid-wobble {
   animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
 }
+
+@keyframes slideDownNavbar {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  animation: slideDownNavbar 2s cubic-bezier(.22,1.08,.53,.97) both;
+}
