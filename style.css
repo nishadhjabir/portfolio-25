@@ -127,7 +127,14 @@ section{
   justify-content: center;
 }
 
-.card1, .card1 img, .card, .card img{
+.card1{
+  border-radius: 30px;
+  border-bottom: #82655a solid 1px;
+  border-right: #82655a solid 1px;
+  
+}
+
+.card1 img, .card, .card img{
   border-radius: 30px!important;
   border: 0px!important;
   /* filter: saturate(0.5); */
