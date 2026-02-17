@@ -88,7 +88,7 @@ section{
   position: relative;
   z-index: 1000;
   /* background-color: #523f38; */
-  background-color: #303038;
+  background-color: #3a4254;
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
@@ -101,8 +101,8 @@ section{
   background-repeat: no-repeat;                  
   background-position: center;                  
   background-blend-mode: multiply;
-  border-top: #36363e solid 5px;
-  border-bottom: #222228 solid 5px;
+  border-top: #3a4254 solid 5px;
+  border-bottom: #2c323f solid 5px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
 }
 
@@ -118,8 +118,8 @@ section{
 
 .card1{
   border-radius: 30px;
-  border-bottom: #4a4a54 solid 1px;
-  border-right: #4a4a54 solid 1px;
+  border-bottom: #474f62 solid 1px;
+  border-right: #474f62 solid 1px;
 }
 
 .card1 img, .card, .card img{
