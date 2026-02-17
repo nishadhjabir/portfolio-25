@@ -38,7 +38,8 @@
 }
 
 body{
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
+  background-color: #ececf5;
   font-family: 'Poppins';
 }
 
@@ -86,7 +87,8 @@ section{
   margin-top: 100vh;
   position: relative;
   z-index: 1000;
-  background-color: #523f38;
+  /* background-color: #523f38; */
+  background-color: #303038;
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
@@ -99,8 +101,8 @@ section{
   background-repeat: no-repeat;                  
   background-position: center;                  
   background-blend-mode: multiply;
-  border-top: #523f38 solid 5px;
-  border-bottom: #35262198 solid 5px;
+  border-top: #393942 solid 5px;
+  border-bottom: #212127 solid 5px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
 }
 
@@ -116,8 +118,8 @@ section{
 
 .card1{
   border-radius: 30px;
-  border-bottom: #82655a solid 1px;
-  border-right: #82655a solid 1px;
+  border-bottom: #4a4a54 solid 1px;
+  border-right: #4a4a54 solid 1px;
 }
 
 .card1 img, .card, .card img{
@@ -168,7 +170,7 @@ ul.example-2 {
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
+  color: #ffffff;
   padding: 6px 10px;
   border-radius: 5px;
   opacity: 0;
@@ -189,7 +191,7 @@ ul.example-2 {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.429);
   border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 6px 10px 0 rgba(76, 30, 90, 0.1);
+  box-shadow: 0 6px 10px 0 rgba(41, 30, 90, 0.1);
   color: #232323;
   transition: all 0.3s ease-in-out;
   
@@ -208,8 +210,8 @@ ul.example-2 {
   opacity: 1;
   
 
-  mask-image: linear-gradient(to bottom, rgba(255,255,255,0.7), transparent);
-  -webkit-mask-image: linear-gradient(to bottom, rgba(255,255,255,0.7), transparent);
+  mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), transparent);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), transparent);
 }
 
 
@@ -229,7 +231,7 @@ ul.example-2 {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #000;
+  background-color: #000000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -244,13 +246,13 @@ ul.example-2 {
 .carousel-rounded {
   padding: 2px;
   box-shadow:
-    inset 1px 1px 2px #5a504a,
-    inset -2px -1px 2px #90827a,
-    0px 1px 5px #534841,
-    -2px -1px 5px #90827a81,
+    inset 1px 1px 2px #4c4a5a,
+    inset -2px -1px 2px #7c7a90,
+    0px 1px 5px #424153,
+    -2px -1px 5px #7a7a9081,
     0 5px 10px 0 rgba(0, 0, 0, 0.295)!important;
 
-  border: 1px solid #90867a;
+  border: 1px solid #7e7a90;
 }
 
 #myTextCarousel{
