@@ -38,8 +38,8 @@
 }
 
 body{
-  background-color: #eeeeee;
-  /* background-color: #ececf5; */
+  /* background-color: #eeeeee; */
+  background-color: #ececf5;
   font-family: 'Poppins';
 }
 
@@ -88,22 +88,38 @@ section{
   position: relative;
   z-index: 1000;
   /* background-color: #523f38; */
-  background-color: #3a4254;
+  /* background-color: #3a4254; */
   padding: 20px; 
   padding-bottom: 30px;
   display: inline-block;
   align-items: center;
   justify-content: center;
-  color: white!important;
   min-height: fit-content!important;
-  background-image: url("img/white-leather-texture.jpg");
-  background-size: cover;                       
-  background-repeat: no-repeat;                  
-  background-position: center;                  
-  background-blend-mode: multiply;
-  border-top: #3a4254 solid 5px;
-  border-bottom: #2c323f solid 5px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
+  background: rgba(1, 0, 9, 0.783) !important;
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-top: 3px solid rgba(255, 255, 255, 0.247);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.247);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.32);
+  color: #fff !important;
+}
+
+.mid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    175deg, 
+    rgba(255, 255, 255, 0.107) 0%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.mid p, .mid h1{
+  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.393));
 }
 
 .bot{
@@ -118,8 +134,9 @@ section{
 
 .card1{
   border-radius: 30px;
-  border-bottom: #474f62 solid 1px;
-  border-right: #474f62 solid 1px;
+  box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.205);
+  /* border-bottom: #474f62 solid 1px;
+  border-right: #474f62 solid 1px; */
 }
 
 .card1 img, .card, .card img{
@@ -247,12 +264,12 @@ ul.example-2 {
   padding: 2px;
   box-shadow:
     inset 1px 1px 2px #4c4a5a,
-    inset -2px -1px 2px #7c7a90,
-    0px 1px 5px #424153,
-    -2px -1px 5px #7a7a9081,
-    0 5px 10px 0 rgba(0, 0, 0, 0.295)!important;
+    inset -2px -1px 2px #807f8e,
+    0px 1px 5px #4f4f57,
+    -2px -1px 5px #90909381,
+    0 5px 10px 0 rgba(0, 0, 0, 0.6)!important;
 
-  border: 1px solid #7e7a90;
+  border: 1px solid #909092;
 }
 
 #myTextCarousel{
