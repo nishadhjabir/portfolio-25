@@ -102,20 +102,6 @@ section{
   color: #fff !important;
 }
 
-/* .mid::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    175deg, 
-    rgba(255, 255, 255, 0.107) 0%, 
-    rgba(255, 255, 255, 0) 100%
-  );
-  border-radius: inherit;
-  pointer-events: none;
-  z-index: 1;
-} */
-
 .mid p, .mid h1{
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.393));
 }
