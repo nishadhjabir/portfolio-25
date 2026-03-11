@@ -55,8 +55,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
-  padding-top: 20px;   
+  margin-top: 0px; 
 }
 
 .top h1 {
