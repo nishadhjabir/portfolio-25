@@ -1,16 +1,25 @@
 .navbar {
-  background: none;
-    background: linear-gradient(175deg,rgba(255, 255, 255, 0.473), rgba(255, 255, 255, 0))!important;
+  background-color: #ffffff15!important;
+    /* background: linear-gradient(175deg,rgba(255, 255, 255, 0.473), rgba(255, 255, 255, 0))!important; */
   /* backdrop-filter: blur(0.5px);
   -webkit-backdrop-filter: blur(0.5px); */
-  border-bottom: 1.5px solid rgba(255, 255, 255, 0);
+  /* border: 1.5px solid rgba(255, 255, 255, 0); */
+  border-radius: 50px;
+  margin: 20px;
   padding: 0;
   padding-bottom: 2px;
   padding-top: 2px;
-  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.078);
+    box-shadow:
+    inset 1px 1px 2px #4c4a5a18,
+    inset -2px -1px 2px #807f8e76,
+    0px 1px 5px #4f4f5751,
+    -2px -1px 5px #90909322,
+    0 5px 10px 0 rgba(0, 0, 0, 0.046)!important;
+
+  border: 1px solid #90909218;
 }
 
-.navbar::before {
+/* .navbar::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -21,7 +30,7 @@
   );
   border-radius: inherit;
   pointer-events: none;
-}
+} */
 
 
 
@@ -84,7 +93,7 @@ section{
 }
 
 .mid{
-  margin-top: 100vh;
+  margin-top: 90vh;
   position: relative;
   z-index: 1000;
   /* background-color: #523f38; */
@@ -278,7 +287,7 @@ ul.example-2 {
 
 @keyframes slideDownNavbar {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-150%);
   }
   100% {
     transform: translateY(0);
@@ -286,6 +295,6 @@ ul.example-2 {
 }
 
 .navbar {
-  animation: slideDownNavbar 2s cubic-bezier(.22,1.08,.53,.97) both;
+  animation: slideDownNavbar 2s cubic-bezier(0.075, 0.885, 0.32, 1.175) both;
   animation-delay: 1s;
 }

@@ -23,7 +23,7 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(myCarousel);
 
-const wobbleElements = document.querySelectorAll('.card, .icon-content,.cvbtn');
+const wobbleElements = document.querySelectorAll('.card, .icon-content,.navbar,.navbar-brand img');
 
 wobbleElements.forEach(el => {
   el.addEventListener('touchstart', function() {
@@ -38,17 +38,17 @@ wobbleElements.forEach(el => {
   });
 });
 
-const navbarLogo = document.querySelector('.navbar-brand img');
-if (navbarLogo) {
-  navbarLogo.addEventListener('touchstart', function() {
-    navbarLogo.classList.remove('liquid-wobble');
-    void navbarLogo.offsetWidth;
-    navbarLogo.classList.add('liquid-wobble');
-  });
-  navbarLogo.addEventListener('animationend', function() {
-    navbarLogo.classList.remove('liquid-wobble');
-  });
-}
+// const lenis = new Lenis({
+//   duration: 1.2, // How long the "glide" lasts
+//   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Custom easing function
+//   smoothWheel: true,
+// })
 
+// function raf(time) {
+//   lenis.raf(time)
+//   requestAnimationFrame(raf)
+// }
+
+// requestAnimationFrame(raf)
 
 
