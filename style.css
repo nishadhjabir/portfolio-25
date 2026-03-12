@@ -7,7 +7,7 @@ body{
 }
 
 .loader {
-  position: relative;
+  position: absolute;
   width: 54px;
   height: 54px;
   border-radius: 10px;
