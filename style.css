@@ -1,17 +1,11 @@
 body{
   background-color: #000000;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
   background: none;
-  padding: 0;
-
-
 }
 
-/* From Uiverse.io by david-mohseni */ 
 .loader {
   position: relative;
   width: 54px;
@@ -162,7 +156,6 @@ body{
   text-rendering: optimizeLegibility;
   position: relative;
   padding-left: 10px;
-  padding-top: 10px;
 }
 
 .popup input {
