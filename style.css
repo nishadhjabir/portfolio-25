@@ -55,8 +55,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
-  padding-top: 20px;   
+  margin-top: 0px; 
 }
 
 .top h1 {
@@ -84,7 +83,7 @@ section{
 }
 
 .mid{
-  margin-top: 90vh;
+  margin-top: 80vh;
   position: relative;
   z-index: 1000;
   /* background-color: #523f38; */
