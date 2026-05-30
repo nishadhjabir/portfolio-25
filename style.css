@@ -288,6 +288,6 @@ ul.example-2 {
     margin-top: 100vh; /* Adjust pixels to control the slide distance */
   }
   to {
-    margin-top: 90vh; /* Returns to its natural layout position */
+    margin-top: 80vh; /* Returns to its natural layout position */
   }
 }
