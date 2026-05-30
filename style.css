@@ -61,6 +61,7 @@ section{
 .top h1 {
   text-align: center;
   margin-top: 0px;
+  font-family: "Playwrite TZ", cursive;
   font-size: 50px;
   background: 
     linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(255,255,255,0) 60%),
@@ -83,7 +84,7 @@ section{
 }
 
 .mid{
-  margin-top: 80vh;
+  /* margin-top: 80vh; */
   position: relative;
   z-index: 1000;
   /* background-color: #523f38; */
@@ -99,9 +100,16 @@ section{
   border-bottom: 2px solid rgba(255, 255, 255, 0.247);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.32);
   color: #fff !important;
+  animation: slideUpEnter 3s cubic-bezier(0.34, 1.56, 0.64, 1)both;
+  animation-delay: 1s;
 }
 
-.mid p, .mid h1{
+.mid h1{
+  filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.393));
+  font-family: "Playwrite TZ", cursive;
+}
+
+.mid p{
   filter: drop-shadow(1px 4px 1px rgba(0, 0, 0, 0.393));
 }
 
@@ -273,4 +281,13 @@ ul.example-2 {
 
 .liquid-wobble {
   animation: liquidWobble 1s cubic-bezier(.22,1.08,.53,.97) both;
+}
+
+@keyframes slideUpEnter {
+  from {
+    margin-top: 100vh; /* Adjust pixels to control the slide distance */
+  }
+  to {
+    margin-top: 90vh; /* Returns to its natural layout position */
+  }
 }
